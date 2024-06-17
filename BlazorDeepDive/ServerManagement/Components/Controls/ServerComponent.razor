@@ -1,7 +1,11 @@
 ﻿<p>
-    Server is online.
+    @Server.Name is in @Server.City
 </p>
 
-@code {
+<div data-name="@Server.Name">
+    @Server.Name is in @Server.City
+</div>
 
+@code {
+    private Server Server = new() { Name = "Server 1", City = "Imus, Cavite" };
 }
