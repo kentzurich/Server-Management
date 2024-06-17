@@ -5,18 +5,18 @@ public static class ServersRepository
     private static List<Server> servers = new List<Server>()
         {
             new Server {  Id = 1, Name = "Server1", City = "Imus" },
-            new Server {  Id = 2, Name = "Server2", City = "Dasmarinas" },
-            new Server {  Id = 3, Name = "Server3", City = "Bacoor" },
-            new Server {  Id = 4, Name = "Server4", City = "Naic" },
-            new Server {  Id = 5, Name = "Server5", City = "Noveleta" },
-            new Server {  Id = 6, Name = "Server6", City = "Trece Martires" },
-            new Server {  Id = 7, Name = "Server7", City = "General Trias" },
-            new Server {  Id = 8, Name = "Server8", City = "Tagaytay" },
-            new Server {  Id = 9, Name = "Server9", City = "Batangas" },
-            new Server {  Id = 10, Name = "Server10", City = "Pasay" },
-            new Server {  Id = 11, Name = "Server11", City = "Makati" },
-            new Server {  Id = 12, Name = "Server12", City = "Taguig" },
-            new Server {  Id = 13, Name = "Server13", City = "Paranaque" },
+            new Server {  Id = 2, Name = "Server2", City = "Imus" },
+            new Server {  Id = 3, Name = "Server3", City = "Imus" },
+            new Server {  Id = 4, Name = "Server4", City = "Imus" },
+            new Server {  Id = 5, Name = "Server5", City = "Dasmarinas" },
+            new Server {  Id = 6, Name = "Server6", City = "Dasmarinas" },
+            new Server {  Id = 7, Name = "Server7", City = "Dasmarinas" },
+            new Server {  Id = 8, Name = "Server8", City = "Dasmarinas" },
+            new Server {  Id = 9, Name = "Server9", City = "Bacoor" },
+            new Server {  Id = 10, Name = "Server10", City = "Bacoor" },
+            new Server {  Id = 11, Name = "Server11", City = "Bacoor" },
+            new Server {  Id = 12, Name = "Server12", City = "Bacoor" },
+            new Server {  Id = 13, Name = "Server13", City = "Bacoor" },
         };
 
     public static void AddServer(Server server)
