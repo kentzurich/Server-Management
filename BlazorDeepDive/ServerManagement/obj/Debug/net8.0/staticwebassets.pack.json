@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "D:\\GitHub\\Repositories\\Server-Management\\BlazorDeepDive\\ServerManagement\\wwwroot\\images\\Bacoor.png",
+      "PackagePath": "staticwebassets\\images\\Bacoor.png"
+    },
+    {
+      "Id": "D:\\GitHub\\Repositories\\Server-Management\\BlazorDeepDive\\ServerManagement\\wwwroot\\images\\Dasmarinas.png",
+      "PackagePath": "staticwebassets\\images\\Dasmarinas.png"
+    },
+    {
+      "Id": "D:\\GitHub\\Repositories\\Server-Management\\BlazorDeepDive\\ServerManagement\\wwwroot\\images\\Imus.png",
+      "PackagePath": "staticwebassets\\images\\Imus.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ServerManagement.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
