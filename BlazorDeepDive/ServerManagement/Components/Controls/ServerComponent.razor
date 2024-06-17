@@ -1,9 +1,7 @@
-﻿<p>
-    @Server.Name is in @Server.City
-</p>
-
-<div data-name="@Server.Name">
-    @Server.Name is in @Server.City
+﻿<div data-name="@Server.Name" 
+     data-status="@(Server.IsOnline ? "online" : "offline")"
+     style="@($"color: {(Server.IsOnline ? "green" : "red")}")">
+    @Server.Name is in @Server.City that is @(Server.IsOnline ? "online" : "offline")
 </div>
 
 @code {
