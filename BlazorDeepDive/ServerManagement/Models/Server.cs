@@ -1,4 +1,6 @@
-﻿namespace ServerManagement.Models;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ServerManagement.Models;
 
 public sealed class Server
 {
@@ -11,6 +13,8 @@ public sealed class Server
 
     public int Id { get; set; }
     public bool IsOnline { get; set; }
-    public string? Name { get; set; }
-    public string? City { get; set; }
+    [Required]
+    public string Name { get; set; }
+    [Required]
+    public string City { get; set; }
 }
