@@ -1,5 +1,7 @@
 ﻿@page "/servers"
 
+@inject NavigationManager NavigationManager
+
 <h3>Servers</h3>
 <br />
 <br />
@@ -32,9 +34,17 @@
             </span>.
             &nbsp;
             <a href="/servers/@server.Id" class="btn btn-link">Edit</a>
+            &nbsp;
+            <EditForm 
+                Model="server" 
+                FormName="@($"form-server-{server.Id}")" 
+                OnValidSubmit="() => { DeleteServer(server.Id); }">
+                <button type="submit" class="btn btn-primary">Delete</button>
+            </EditForm>
         </li>
     }
 </ul>
+
 <p>
     <a href="/servers/add" class="btn btn-primary">Add Server</a>
 </p>
@@ -43,4 +53,13 @@
     private List<Server> servers = ServersRepository.GetServersByCity("Imus");
 
     private List<string> cities = CitiesRepository.GetCities();
+
+    private void DeleteServer(int serverId)
+    {
+        if(serverId > 0)
+        {
+            ServersRepository.DeleteServer(serverId);
+            NavigationManager.Refresh();
+        }
+    }
 }
