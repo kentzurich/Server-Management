@@ -1,4 +1,6 @@
-﻿@if(Server is not null)
+﻿@* @rendermode InteractiveServer *@
+
+@if(Server is not null)
 {
     <div data-name="@Server.Name"
             data-status="@(Server.IsOnline ? "online" : "offline")"
