@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\GitHub\\Repositories\\Server-Management\\BlazorDeepDive\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C893C8DF-ABB4-43C8-89E2-585BDD8EF93D}|ServerManagement\\ServerManagement.csproj|d:\\github\\repositories\\server-management\\blazordeepdive\\servermanagement\\components\\pages\\addserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C893C8DF-ABB4-43C8-89E2-585BDD8EF93D}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\components\\pages\\addserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C893C8DF-ABB4-43C8-89E2-585BDD8EF93D}|ServerManagement\\ServerManagement.csproj|d:\\github\\repositories\\server-management\\blazordeepdive\\servermanagement\\components\\pages\\servers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C893C8DF-ABB4-43C8-89E2-585BDD8EF93D}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\components\\pages\\servers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddServer.razor",
+              "DocumentMoniker": "D:\\GitHub\\Repositories\\Server-Management\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\AddServer.razor",
+              "RelativeDocumentMoniker": "ServerManagement\\Components\\Pages\\AddServer.razor",
+              "ToolTip": "D:\\GitHub\\Repositories\\Server-Management\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\AddServer.razor",
+              "RelativeToolTip": "ServerManagement\\Components\\Pages\\AddServer.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T12:58:26.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Servers.razor",
               "DocumentMoniker": "D:\\GitHub\\Repositories\\Server-Management\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\Servers.razor",
               "RelativeDocumentMoniker": "ServerManagement\\Components\\Pages\\Servers.razor",
               "ToolTip": "D:\\GitHub\\Repositories\\Server-Management\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\Servers.razor",
               "RelativeToolTip": "ServerManagement\\Components\\Pages\\Servers.razor",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-26T12:38:45.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ServerComponent.razor",
               "DocumentMoniker": "D:\\GitHub\\Repositories\\Server-Management\\BlazorDeepDive\\ServerManagement\\Components\\Controls\\ServerComponent.razor",
               "RelativeDocumentMoniker": "ServerManagement\\Components\\Controls\\ServerComponent.razor",

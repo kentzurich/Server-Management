@@ -13,7 +13,7 @@
         @foreach (var city in cities)
         {
             <div class="col">
-                <div class="card">
+                <div class="card @(selectedCity.Equals(city, StringComparison.OrdinalIgnoreCase) ? "border-primary" : string.Empty)">
                     <img class="card-img-top" src="@($"/images/{city}.png")" alt="...">
                     <div class="card-body">
                         <button type="button" class="btn btn-primary" @onclick="@(() => SelectCity(city))">@city</button>
@@ -26,7 +26,7 @@
 <br />
 <br />
 
-<ServerComponent @rendermode="InteractiveServer"></ServerComponent>
+@* <ServerComponent @rendermode="InteractiveServer"></ServerComponent> *@
 
 
 <ul>
