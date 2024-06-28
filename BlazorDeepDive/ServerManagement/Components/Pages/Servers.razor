@@ -29,7 +29,12 @@
 @* <ServerComponent @rendermode="InteractiveServer"></ServerComponent> *@
 
 <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Search Servers" @onchange="HandleServerFilterChanged" />
+    <input 
+        type="text" 
+        class="form-control" 
+        placeholder="Search Servers"
+        @bind-value="FilterServer"
+        @bind-value:event="oninput" />
     <button class="btn btn-outline-secondary" type="button" id="btnSearch" @onclick="HandleSearch">Search</button>
 </div>
 
@@ -67,7 +72,19 @@
 
     private string selectedCity = "Imus";
 
-    private string FilterServer = string.Empty;
+    private string _filterServer = string.Empty;
+    private string FilterServer 
+    { 
+        get => _filterServer;
+        set
+        {
+            _filterServer = value;
+
+            this.servers = ServersRepository.SearchServers(_filterServer);
+
+            this.selectedCity = string.Empty;
+        }
+    }
 
     private void DeleteServer(int serverId)
     {
@@ -83,11 +100,6 @@
         this.selectedCity = cityName;
 
         this.servers = ServersRepository.GetServersByCity(this.selectedCity);
-    }
-
-    private void HandleServerFilterChanged(ChangeEventArgs e)
-    {
-        FilterServer = e.Value?.ToString() ?? string.Empty;
     }
 
     private void HandleSearch()
